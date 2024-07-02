@@ -1,0 +1,9 @@
+.error {
+    color: #ff0000;
+    font-weight: bold;
+  }
+  
+  .success {
+    color: #008000;
+    font-weight: bold;
+  }

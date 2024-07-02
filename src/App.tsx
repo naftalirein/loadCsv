@@ -3,10 +3,10 @@ import type { WithAuthenticatorProps } from '@aws-amplify/ui-react';
 import { withAuthenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 import config from '../amplifyconfiguration.json';
-import FileUploader from './FileUploader';
 import { useState } from 'react';
 import ProcessedDataTable from './componenets/ProcessedDataTable/ProcessedDataTable';
 import styles from './App.module.css';
+import FileUploader from './componenets/FileUploader/FileUploader';
 
 Amplify.configure(config);
 
